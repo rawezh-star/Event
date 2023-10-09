@@ -13,7 +13,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  scroll-behavior: smooth;
+  scroll-bevior: smooth;
 }
 
 html {
@@ -33,6 +33,7 @@ body {
 
 a {
   text-decoration: none;
+    
 }
 
 li {
@@ -141,7 +142,7 @@ img {
   color: var(--orange);
   font-family: 'COCOGOOSE', sans-serif;
   padding: 10px 0;
-  background-image: url('../assets/images/backgrounds/text-background.jpg');
+  /* background-image: url('../assets/images/backgrounds/text-background.jpg'); */
   background-size: cover;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -224,6 +225,9 @@ footer {
   align-items: center;
   flex-wrap: wrap;
   padding: 30px;
+  margin: 0;
+  background-color: var(--black);
+  color: white;
 }
 
 /* footer section styling ends here */
